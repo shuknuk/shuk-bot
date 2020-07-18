@@ -37,6 +37,10 @@ client.on('message', message => {
 		message.channel.send('You can visit this page for the commands to use: https://pastebin.com/6usNqskj');
 	}
 
+	if (command === 'mornin') {
+		message.channel.send('Mornin my dudes!');
+	}
+
 // I added a new label
 
 
