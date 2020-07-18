@@ -41,6 +41,10 @@ client.on('message', message => {
 		message.channel.send('Mornin my dudes!');
 	}
 
+	if (command === 'dogs_terrified') {
+		message.channel.send('https://media.tenor.co/videos/c3b8f95e54f3d3a4213ca493bd3490c8/mp4');
+	}
+
 // I added a new label
 
 
