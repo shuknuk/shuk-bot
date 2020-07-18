@@ -45,6 +45,10 @@ client.on('message', message => {
 		message.channel.send('https://media.giphy.com/media/fItgT774J3nWw/giphy.gif');
 	}
 
+	if (command === 'apple_vs_android') {
+		message.channel.send('https://media.giphy.com/media/WsJzXF8M8tl6w/giphy.gif');
+	}
+
 // I added a new label
 
 
@@ -76,6 +80,8 @@ client.on('message', message => {
 	if (message.content === '!mad') {
 		message.react('😡');
 	}
+
+	
 
 	// in the future, a github page should be added here!!!
 	
