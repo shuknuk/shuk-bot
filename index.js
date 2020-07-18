@@ -3,7 +3,7 @@ const { prefix, token } = require('./config.json');
 const client = new Discord.Client();
 
 client.once('ready', () => {
-	console.log('Ready!');
+	console.log('The bot is online! Type !help to learn what commands to use with it');
 });
 
 client.on('message', message => {
