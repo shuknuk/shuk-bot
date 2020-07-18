@@ -4,6 +4,9 @@ const client = new Discord.Client();
 
 client.once('ready', () => {
 	console.log('Ready!');
+	bot.user.setActivity("Playing Minecraft", {
+		type: "PLAYING"
+	})
 });
 
 client.on('message', message => {
