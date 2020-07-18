@@ -12,7 +12,13 @@ client.on('message', message => {
 	const args = message.content.slice(prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
 	
-    
+	// GitHub Page
+	if (command === 'github') {
+		message.channel.send('Currently private. Will be published very soon');
+	}
+	
+
+
     if (command === 'tacos') {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
 	}
