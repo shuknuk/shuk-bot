@@ -37,7 +37,7 @@ client.on('message', message => {
 		message.channel.send('You can visit this page for the commands to use: https://pastebin.com/6usNqskj');
 	}
 
-
+// I added a new label
 
 
 	//Emoji reactions
