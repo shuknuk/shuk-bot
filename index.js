@@ -125,7 +125,8 @@ client.on('message', message => {
 		message.channel.send(avatarList);
 	} else if (command === 'prune') {
 		const amount = parseInt(args[0]) + 1;
-
+			// When typing the !prune command, enter an amount and it deletes that many messages.
+			// Limit is from 2-100 per submission
 		if (isNaN(amount)) {
 			return message.reply('that doesn\'t seem to be a valid number.');
 		} else if (amount < 2 || amount > 100) {
