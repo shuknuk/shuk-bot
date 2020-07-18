@@ -137,20 +137,8 @@ client.login(process.env.token);
 
 
 
-// Note: [prefix] = !
-// So {prefix}beep = !beep
-
 
 // List of commands now on PasteBin
 // https://pastebin.com/6usNqskj
 
 
-// I wish I could get a new laptop
-// But I don't know exactly when I will
-// I almost got a new one, but like 1 day after I got it my sister's laptop broke
-// I feel like she broke it just so she could get my new laptop, but I doubt it
-// Since she's in highschool, I have to give the laptop to her so she can use it for education
-// Now, I'm just using a broken slow laptop that's heavy to move around. 
-// It's based on linux
-// I mean it isn't slow, thanks to Linux
-// But its hard to move around, and it doesn't have the great specs...
