@@ -55,6 +55,10 @@ client.on('message', message => {
 		message.channel.send('https://media.giphy.com/media/WsJzXF8M8tl6w/giphy.gif');
 	}
 
+	if (command === 'doit') {
+		message.channel.send('https://media.giphy.com/media/GcSqyYa2aF8dy/giphy.gif');
+	}
+
 	
 
 // I added a new label and i editied it
