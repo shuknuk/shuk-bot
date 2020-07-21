@@ -63,6 +63,10 @@ client.on('message', message => {
 		message.channel.send('https://images-ext-2.discordapp.net/external/qZw1eKzoZ5YQxVjRpzs61DBuGvbzvO0wBRtvG0VpOp4/https/images-ext-1.discordapp.net/external/DUyLzeMzo93_divTJPzzGVzsdJfcWZ17kfUlrtyx3gY/https/media.tenor.com/images/8de5bce8f5903037ada38cce0157738f/tenor.gif');
 	}
 
+	if (command === 'boomer_alert') {
+		message.channel.send('https://images-ext-1.discordapp.net/external/FzIHi9fXAmW6_jOhK5drP9C8sCmCaBTOp2NkbzUd3s8/https/media.tenor.com/images/f7c2d344e67d5fb01e05804b17dac783/tenor.gif');
+	}
+
 	
 
 // I added a new label and i editied it
