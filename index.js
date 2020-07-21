@@ -67,6 +67,14 @@ client.on('message', message => {
 		message.channel.send('https://images-ext-1.discordapp.net/external/FzIHi9fXAmW6_jOhK5drP9C8sCmCaBTOp2NkbzUd3s8/https/media.tenor.com/images/f7c2d344e67d5fb01e05804b17dac783/tenor.gif');
 	}
 
+	if (command === 'android') {
+		message.channel.send('https://lh3.googleusercontent.com/GTmuiIZrppouc6hhdWiocybtRx1Tpbl52eYw4l-nAqHtHd4BpSMEqe-vGv7ZFiaHhG_l4v2m5Fdhapxw9aFLf28ErztHEv5WYIz5fA');
+	}
+
+	if (command === 'apple') {
+		message.channel.send('https://pbs.twimg.com/profile_images/1283958620359516160/p7zz5dxZ_400x400.jpg');
+	}
+
 	
 
 // I added a new label and i editied it
