@@ -75,6 +75,10 @@ client.on('message', message => {
 		message.channel.send('https://pbs.twimg.com/profile_images/1283958620359516160/p7zz5dxZ_400x400.jpg');
 	}
 
+	if (command === 'youtube') {
+		message.channel.send('https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif');
+	}
+
 	
 
 // I added a new label and i editied it
