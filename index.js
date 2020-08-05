@@ -81,7 +81,7 @@ client.on('message', message => {
 
 	
 
-// I added a new label and i editied it
+// I added a new label and i editied it and I did it again!
 
 
 	//Emoji reactions
