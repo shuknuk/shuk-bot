@@ -79,6 +79,10 @@ client.on('message', message => {
 		message.channel.send('https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif');
 	}
 
+	if (command === 'test') {
+		message.channel.send('it worked');
+	}
+
 	
 
 // I added a new label and i editied it and I did it again!
@@ -115,7 +119,7 @@ client.on('message', message => {
 
 	
 
-	// in the future, a github page should be added here!!!
+	// in the future, a github page should be added here!!! and it has been 
 	
 
 // Message guides, etc.
