@@ -11,9 +11,11 @@ Right now the bot is currently in beta, so more features will be added soon.
 
 
 
-*Project created (Add Date Here)*
+Project created:  *July 17th, 2020*
 
 Bot-Invite Link: [COMING SOON]
+
+Website: [Also coming soon!] `Very Basic`
 
 Contact Me: [kg467@graphic-designer.com]
 
