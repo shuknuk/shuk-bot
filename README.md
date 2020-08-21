@@ -5,19 +5,17 @@ A very basic Discord bot that was programmed by me and is in development.
 
 This bot can do basic stuff such as responding to commands such as *!hello* and send gifs to messages such as *!cats*
 
+
+
 Right now the bot is currently in beta, so more features will be added soon. 
-
-[5]: https://www.google.com	"Try this out!"
-
-
-
-
 
 
 
 *Project created (Add Date Here)*
 
 Bot-Invite Link: [COMING SOON]
+
+Contact Me: [kg467@graphic-designer.com]
 
 
 
