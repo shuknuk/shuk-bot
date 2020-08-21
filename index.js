@@ -117,6 +117,22 @@ client.on('message', message => {
 		message.react('😡');
 	}
 
+	if (message.content === '!XD') {
+		message.react('😆');
+	}
+
+	if (message.content === '!mask') {
+		message.react('😷');
+	}
+
+	if (message.content === '!yes') {
+		message.react('👍');
+	}
+
+	if (message.content === '!no') {
+		message.react('👎');
+	}
+
 	
 
 	// in the future, a github page should be added here!!! and it has been 
