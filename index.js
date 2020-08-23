@@ -6,6 +6,8 @@ client.once('ready', () => {
 	console.log('The bot is online! Type !help to learn what commands to use with it');
 });
 
+
+
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
@@ -16,11 +18,18 @@ client.on('message', message => {
 	if (command === 'github') {
 		message.channel.send('Currently private. Will be published very soon');
 	}
+
+	
 	
 
 
     if (command === 'tacos') {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
+	}
+
+	
+	if (command === 'list') {
+		import { list } from "./list";
 	}
 
 	// Cats project
@@ -88,9 +97,9 @@ client.on('message', message => {
 		message.channel.send('it worked');
 	}
 
-	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` ');
-	}
+	
+
+
 
 	// Add the github link when public: https://github.com/Kinshuk-Goel/shuk-bot
 
