@@ -88,7 +88,9 @@ client.on('message', message => {
 		message.channel.send('it worked');
 	}
 
-	
+	if (command === 'list') {
+		message.channel.send(' `!hello` `!help` ');
+	}
 
 	// Add the github link when public: https://github.com/Kinshuk-Goel/shuk-bot
 
