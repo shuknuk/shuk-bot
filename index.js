@@ -28,9 +28,6 @@ client.on('message', message => {
 	}
 
 	
-	if (command === 'list') {
-		message.channel.send(list);
-	}
 
 	// Cats project
 	
