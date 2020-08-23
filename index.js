@@ -22,14 +22,18 @@ client.on('message', message => {
     if (command === 'tacos') {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
 	}
+
+	// Cats project
 	
 	if (command === 'cats') {
 		message.channel.send('https://tenor.com/view/cat-driving-serious-cat-driving-focus-driving-gif-15519638');
-	}
-
-	if (command === 'cats') {
+	} else if (command === 'cats') {
 		message.channel.send('https://media.giphy.com/media/ekGDkpNdG0LUOIN2We/giphy.gif');
 	}
+
+	
+
+	// End of project
 
     if (command === 'google') {
         message.channel.send('https://www.google.com');
