@@ -88,9 +88,7 @@ client.on('message', message => {
 		message.channel.send('it worked');
 	}
 
-	if (command === 'github') {
-		message.channel.send('currently private, but will be public soon');
-	}
+	
 
 	// Add the github link when public: https://github.com/Kinshuk-Goel/shuk-bot
 
