@@ -6,7 +6,7 @@ client.once('ready', () => {
 	console.log('The bot is online! Type !help to learn what commands to use with it');
 });
 
-
+import { list } from "./list";
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
@@ -29,7 +29,7 @@ client.on('message', message => {
 
 	
 	if (command === 'list') {
-		import { list } from "./list";
+		message.channel.send(list);
 	}
 
 	// Cats project
