@@ -25,17 +25,17 @@ Limit is 2-100 per text submission.
 
 
 Emoji Reactions:
-//  !happy
-//  !like
-//  !love
-//  !haha
-//  !wow
-//  !sad
-//  !mad
-//  !XD
-//  !mask
-//  !yes
-//  !no
+`		//  !happy
+	//  !like
+	//  !love
+	//  !haha
+	//  !wow
+	//  !sad
+	//  !mad
+	//  !XD
+	//  !mask
+	//  !yes
+	//  !no`
 
 
 // Specific meme stuff (include gifs) and other stuff:
