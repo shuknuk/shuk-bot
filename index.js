@@ -27,13 +27,10 @@ client.on('message', message => {
 	
 	if (command === 'cats') {
 		message.channel.send('https://tenor.com/view/cat-driving-serious-cat-driving-focus-driving-gif-15519638');
-	} else if (command === 'cats') {
-		message.channel.send('https://media.giphy.com/media/ekGDkpNdG0LUOIN2We/giphy.gif');
 	}
-
 	
 
-	// End of project
+	// End of project yeah it didn't work I need to try harder :(
 
     if (command === 'google') {
         message.channel.send('https://www.google.com');
