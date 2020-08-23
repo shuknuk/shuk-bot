@@ -6,7 +6,6 @@ client.once('ready', () => {
 	console.log('The bot is online! Type !help to learn what commands to use with it');
 });
 
-import { list } from "./list";
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
@@ -19,24 +18,17 @@ client.on('message', message => {
 		message.channel.send('Currently private. Will be published very soon');
 	}
 
-	// bot i command u to be online
+	// bot i command u to be online for free
 	
 
 
     if (command === 'tacos') {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
 	}
-
-	
-
-	// Cats project
 	
 	if (command === 'cats') {
 		message.channel.send('https://tenor.com/view/cat-driving-serious-cat-driving-focus-driving-gif-15519638');
 	}
-	
-
-	// End of project yeah it didn't work I need to try harder :(
 
     if (command === 'google') {
         message.channel.send('https://www.google.com');
