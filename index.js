@@ -27,6 +27,10 @@ client.on('message', message => {
 		message.channel.send('https://tenor.com/view/cat-driving-serious-cat-driving-focus-driving-gif-15519638');
 	}
 
+	if (command === 'cats') {
+		message.channel.send('https://media.giphy.com/media/ekGDkpNdG0LUOIN2We/giphy.gif');
+	}
+
     if (command === 'google') {
         message.channel.send('https://www.google.com');
 	}
