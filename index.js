@@ -21,6 +21,13 @@ client.on('message', message => {
 	// bot i command u to be online for free
 	
 
+	// ALL COMMANDS TO USE WITH BOT
+	if (command === 'list') {
+		message.channel.send(' `!hello` `!help` ');
+	}
+	// END OF COMMANDS TO USE WITH BOT
+
+	// ---------------------------------SEPERATION--------------------------------------
 
     if (command === 'tacos') {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
