@@ -32,6 +32,10 @@ client.on('message', message => {
     if (command === 'tacos') {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
 	}
+
+	if (command === 'yo') {
+		message.channel.send('https://drive.google.com/file/d/1T8f_AGjIIjg9Acc2F__P-IVegnPBKMDw/view?usp=sharing');
+	}
 	
 	if (command === 'cats') {
 		message.channel.send('https://tenor.com/view/cat-driving-serious-cat-driving-focus-driving-gif-15519638');
