@@ -23,7 +23,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` ');
+		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server` `!happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
