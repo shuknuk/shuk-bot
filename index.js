@@ -93,13 +93,11 @@ client.on('message', message => {
 		message.channel.send('https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif');
 	}
 
-	if (command === 'test') {
+	if (command === 'again') {
 		message.channel.send('it worked');
 	}
 
-	if (command === 'nintendo') {
-		message.channel.send('meow meow');
-	}
+	
 
 	
 
