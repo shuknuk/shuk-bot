@@ -97,6 +97,10 @@ client.on('message', message => {
 		message.channel.send('it worked');
 	}
 
+	if (command === 'nintendo') {
+		message.channel.send('meow meow');
+	}
+
 	
 
 
