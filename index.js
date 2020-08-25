@@ -22,12 +22,13 @@ client.on('message', message => {
 	
 
 	// ALL COMMANDS TO USE WITH BOT
+
 	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ');
+		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no`  More meme commands => `!tacos !cats !github !apple_vs_android !dogs_terrified !doit !google !panic !boomer_alert !apple !android !youtube !mornin ` ');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
-	// ---------------------------------SEPERATION--------------------------------------
+	// ---------------------------------SEPERATION------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
     if (command === 'tacos') {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
@@ -46,7 +47,7 @@ client.on('message', message => {
 	}
 
 	if (command === 'hello') {
-		message.channel.send('Hello there! Type !help to learn what commands to use with me!');
+		message.channel.send('Hello there! Type !list to learn what commands to use with me! You can also type !help to view a simplified page of the commands to use.');
 	}
 
 	if (command === 'author') {
