@@ -18,7 +18,7 @@ client.on('message', message => {
 		message.channel.send('Currently private. Will be published very soon');
 	}
 
-	// bot i command u to be online for free pls
+	// the bot is not working
 	
 
 	// ALL COMMANDS TO USE WITH BOT
