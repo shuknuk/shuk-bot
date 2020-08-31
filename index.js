@@ -1,6 +1,6 @@
-const Discord = require('discord.js');
-const { prefix, token } = require('./config.json');
-const client = new Discord.Client();
+import { Client } from 'discord.js';
+import { prefix, token } from './config.json';
+const client = new Client();
 
 client.once('ready', () => {
 	console.log('The bot is online! Type !help to learn what commands to use with it');
