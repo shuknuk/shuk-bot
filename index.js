@@ -23,7 +23,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no`  `!tacos !cats !github !apple_vs_android !dogs_terrified !doit !google !panic !boomer_alert !apple !knuckles !bye !android !youtube !mornin` ');
+		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no`  `!tacos !cats !github !apple_vs_android !dogs_terrified !doit !google !cheers !panic !boomer_alert !apple !knuckles !bye !android !youtube !mornin` ');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
@@ -47,6 +47,10 @@ client.on('message', message => {
 
 	if (command === 'hello') {
 		message.channel.send('Hello there! Type !list to learn what commands to use with me! You can also type !help to view a simplified page of the commands to');
+	}
+
+	if (command === 'cheers') {
+		message.channel.send('https://thumbs.gfycat.com/DiscreteDirtyBeagle-size_restricted.gif');
 	}
 
 	if (command === 'author') {
