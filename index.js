@@ -23,7 +23,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no`  `!tacos !cats !github !apple_vs_android !dogs_terrified !doit !google !panic !boomer_alert !apple !android !youtube !mornin` ');
+		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no`  `!tacos !cats !github !apple_vs_android !dogs_terrified !doit !google !panic !boomer_alert !apple !knuckles !bye !android !youtube !mornin` ');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
@@ -79,6 +79,14 @@ client.on('message', message => {
 
 	if (command === 'boomer_alert') {
 		message.channel.send('https://images-ext-1.discordapp.net/external/FzIHi9fXAmW6_jOhK5drP9C8sCmCaBTOp2NkbzUd3s8/https/media.tenor.com/images/f7c2d344e67d5fb01e05804b17dac783/tenor.gif');
+	}
+
+	if (command === 'knuckles') {
+		message.channel.send('https://media.tenor.com/images/0a2e5d661a2bccaeb8bc493e8e02f924/tenor.gif');
+	}
+
+	if (command === 'bye') {
+		message.channel.send('Bye https://thumbs.gfycat.com/ClumsyFarawayBeardedcollie-size_restricted.gif');
 	}
 
 	if (command === 'android') {
