@@ -18,12 +18,12 @@ client.on('message', message => {
 		message.channel.send('Currently private. Will be published very soon');
 	}
 
-	// the bot is not working
+	
 	
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ');
+		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no`  `!tacos !cats !github !apple_vs_android !dogs_terrified !doit !google !panic !boomer_alert !apple !android !youtube !mornin` ');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
@@ -108,7 +108,7 @@ client.on('message', message => {
 
 	
 
-// I added a new label and i editied it and I did it again!
+// I added a new label and i editied it and I did it again! Save the code.
 
 
 	//Emoji reactions
