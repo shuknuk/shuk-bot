@@ -23,7 +23,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no`  `!tacos !cats !github !apple_vs_android !dogs_terrified !doit !google !cheers !panic !news !boomer_alert !apple !knuckles !bye !android !youtube !mornin` ');
+		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !knuckles !bye !android !youtube !mornin` ');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
@@ -51,6 +51,10 @@ client.on('message', message => {
 
 	if (command === 'cheers') {
 		message.channel.send('https://thumbs.gfycat.com/DiscreteDirtyBeagle-size_restricted.gif');
+	}
+
+	if (command === 'poop') {
+		message.channel.send('That is some smelly shit you got there');
 	}
 
 	if (command === 'author') {
@@ -178,6 +182,14 @@ client.on('message', message => {
 	
 
 // Message guides, etc.
+
+// Dice roll test command --- May not work
+	if (command === 'roll_1') {
+		message.channel.send('test1');
+	} else if (command === 'roll_2') {
+		message.channel.send('test2');
+	}
+
 	if (command === 'ping') {
 		message.channel.send('Pong.');
 	} else if (command === 'beep') {
