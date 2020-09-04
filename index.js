@@ -200,6 +200,8 @@ client.on('message', message => {
 		message.channel.send('🎲 4');
 	} else if (command === 'roll_6') {
 		message.channel.send('🎲 5');
+	} else if (amount > 6) {
+		return message.reply('You need to input a number between 1 and 6.');
 	}
 
 	if (command === 'ping') {
