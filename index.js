@@ -97,6 +97,10 @@ client.on('message', message => {
 		message.channel.send('THE NEWS TODAY IS ABOUT A KID NAMED ICENOOB69 WHO HAS DECIDED TO KILL OTZI. tHIS IS VERY SAD. MORE NEWS WILL BE ON DA WAY');
 	}
 
+	if (command === 'roll') {
+		message.channel.send('Pick a number to roll between 1 - 6. For example, `!roll_3` or `!roll_2` ');
+	}
+
 	if (command === 'bye') {
 		message.channel.send('Bye https://thumbs.gfycat.com/ClumsyFarawayBeardedcollie-size_restricted.gif');
 	}
@@ -185,9 +189,17 @@ client.on('message', message => {
 
 // Dice roll test command --- May not work
 	if (command === 'roll_1') {
-		message.channel.send('test1');
+		message.channel.send('🎲 3');
 	} else if (command === 'roll_2') {
-		message.channel.send('test2');
+		message.channel.send('🎲 6');
+	} else if (command === 'roll_3') {
+		message.channel.send('🎲 2');
+	} else if (command === 'roll_4') {
+		message.channel.send('🎲 1')
+	} else if (command === 'roll_5') {
+		message.channel.send('🎲 4');
+	} else if (command === 'roll_6') {
+		message.channel.send('🎲 5');
 	}
 
 	if (command === 'ping') {
