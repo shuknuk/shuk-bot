@@ -73,10 +73,6 @@ client.on('message', message => {
 		message.channel.send('https://media.giphy.com/media/fItgT774J3nWw/giphy.gif');
 	}
 
-	if (command === 'test') {
-		message.channel.send('Test Successful');
-	}
-
 	if (command === 'apple_vs_android') {
 		message.channel.send('https://media.giphy.com/media/WsJzXF8M8tl6w/giphy.gif');
 	}
