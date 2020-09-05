@@ -33,6 +33,10 @@ client.on('message', message => {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
 	}
 
+	if (command === 'dingdong') {
+		message.channel.send('Hello im here lol');
+	}
+
 	if (command === 'yo') {
 		message.channel.send('https://drive.google.com/file/d/1T8f_AGjIIjg9Acc2F__P-IVegnPBKMDw/view?usp=sharing');
 	}
