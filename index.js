@@ -17,7 +17,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !knuckles !bye !android !youtube !mornin` ');
+		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !knuckles !bye !android !youtube !mornin` ');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
