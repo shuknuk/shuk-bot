@@ -13,12 +13,6 @@ client.on('message', message => {
 	const args = message.content.slice(prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
 
-	// GitHub Page
-	if (command === 'github') {
-		message.channel.send('Currently private. Will be published very soon');
-	}
-
-
 
 
 	// ALL COMMANDS TO USE WITH BOT
