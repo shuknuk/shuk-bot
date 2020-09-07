@@ -7,7 +7,9 @@ This bot can do basic stuff such as responding to commands such as *!hello* and 
 
 
 
-Right now the bot is currently in beta, so more features will be added soon. 
+So once I figure out how to hide the bot token then I will make the GitHub project public. If u see it public, then you should assume that the bot token is hidden lolololololol.
+
+Right now the bot is currently in beta, so more features will be added soon.
 
 
 
@@ -18,6 +20,3 @@ Bot-Invite Link: [`COMING SOON`]
 Website: [Also coming soon!] `Very Basic`
 
 Contact Me: kg467@graphic-designer.com
-
-
-
