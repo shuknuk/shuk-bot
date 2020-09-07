@@ -12,14 +12,14 @@ client.on('message', message => {
 
 	const args = message.content.slice(prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
-	
+
 	// GitHub Page
 	if (command === 'github') {
 		message.channel.send('Currently private. Will be published very soon');
 	}
 
-	
-	
+
+
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
@@ -40,7 +40,7 @@ client.on('message', message => {
 	if (command === 'yo') {
 		message.channel.send('https://drive.google.com/file/d/1T8f_AGjIIjg9Acc2F__P-IVegnPBKMDw/view?usp=sharing');
 	}
-	
+
 	if (command === 'cats') {
 		message.channel.send('https://tenor.com/view/cat-driving-serious-cat-driving-focus-driving-gif-15519638');
 	}
@@ -105,6 +105,10 @@ client.on('message', message => {
 		message.channel.send('Pick a number to roll between 1 - 6. For example, `!roll_3` or `!roll_2` ');
 	}
 
+	if (command === 'plswork') {
+		message.channel.send('I hope it does work indeed.');
+	}
+
 	if (command === 'bye') {
 		message.channel.send('Bye https://thumbs.gfycat.com/ClumsyFarawayBeardedcollie-size_restricted.gif');
 	}
@@ -121,20 +125,16 @@ client.on('message', message => {
 		message.channel.send('https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif');
 	}
 
-	if (command === 'amazing') {
-		message.channel.send('Amazing Indeed');
-	}
 
-	
-	
 
-	
+
+
 
 
 
 	// Add the github link when public: https://github.com/Kinshuk-Goel/shuk-bot
 
-	
+
 
 // I added a new label and i editied it and I did it again! Save the code.
 
@@ -184,10 +184,10 @@ client.on('message', message => {
 		message.react('👎');
 	}
 
-	
 
-	// in the future, a github page should be added here!!! and it has been 
-	
+
+	// in the future, a github page should be added here!!! and it has been
+
 
 // Message guides, etc.
 
@@ -251,7 +251,7 @@ client.on('message', message => {
 		} else if (amount < 2 || amount > 100) {
 			return message.reply('you need to input a number between 2 and 100.');
 		}
-		
+
 		message.channel.bulkDelete(amount);
 
 		message.channel.bulkDelete(amount, true).catch(err => {
@@ -261,7 +261,7 @@ client.on('message', message => {
 	}
 });
 
-	
+
 
 client.login(process.env.token);
 
@@ -270,5 +270,3 @@ client.login(process.env.token);
 
 // List of commands now on PasteBin
 // https://pastebin.com/6usNqskj
-
-
