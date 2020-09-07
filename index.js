@@ -198,8 +198,6 @@ client.on('message', message => {
 		message.channel.send('🎲 4');
 	} else if (command === 'roll_6') {
 		message.channel.send('🎲 5');
-	} else if (amount > 6) {
-		return message.reply('You need to input a number between 1 and 6.');
 	}
 
 	if (command === 'ping') {
@@ -257,7 +255,7 @@ client.on('message', message => {
 
 
 
-client.login('NzI5MDk3NzEyODE2ODgxNjY1.XwD_KA.EhYKnu-w2j7pYAz9ea6MM9C7E-0');
+client.login(process.env.token);
 
 
 
