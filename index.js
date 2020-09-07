@@ -17,7 +17,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !knuckles !bye !android !youtube !mornin` ');
+		message.channel.send(' `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !knuckles !bored !bye !android !youtube !mornin` ');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
@@ -81,6 +81,10 @@ client.on('message', message => {
 
 	if (command === 'panic') {
 		message.channel.send('https://images-ext-2.discordapp.net/external/qZw1eKzoZ5YQxVjRpzs61DBuGvbzvO0wBRtvG0VpOp4/https/images-ext-1.discordapp.net/external/DUyLzeMzo93_divTJPzzGVzsdJfcWZ17kfUlrtyx3gY/https/media.tenor.com/images/8de5bce8f5903037ada38cce0157738f/tenor.gif');
+	}
+
+	if (command === 'bored') {
+		message.channel.send('Consult these websites for boredom: https://blog.hubspot.com/marketing/surf-internet-websites | https://parade.com/1018413/marynliles/things-to-do-when-bored/ | https://en.softonic.com/articles/10-ways-to-do-more-with-discord ');
 	}
 
 	if (command === 'boomer_alert') {
