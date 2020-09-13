@@ -21,7 +21,7 @@ client.on('message', message => {
 	}
 
 	if (command === 'list2') {
-		message.channel.send(' `!How are you doing?`              *More commands will be added soon*');
+		message.channel.send(' `!How are you doing`              *More commands will be added soon*');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
@@ -123,7 +123,7 @@ client.on('message', message => {
 		message.channel.send('Bye https://thumbs.gfycat.com/ClumsyFarawayBeardedcollie-size_restricted.gif');
 	}
 
-	if (command === 'How are you doing?') {
+	if (command === 'How are you doing') {
 		message.channel.send('I am doing good, thanks for asking! How are you doing?');
 	}
 
