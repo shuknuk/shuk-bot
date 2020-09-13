@@ -119,6 +119,10 @@ client.on('message', message => {
 		message.channel.send('Bye https://thumbs.gfycat.com/ClumsyFarawayBeardedcollie-size_restricted.gif');
 	}
 
+	if (command === '@DaShukBot how are you doing?') {
+		message.channel.send('I am doing good, thanks for asking! How are you doing?');
+	}
+
 	if (command === 'android') {
 		message.channel.send('https://lh3.googleusercontent.com/GTmuiIZrppouc6hhdWiocybtRx1Tpbl52eYw4l-nAqHtHd4BpSMEqe-vGv7ZFiaHhG_l4v2m5Fdhapxw9aFLf28ErztHEv5WYIz5fA');
 	}
