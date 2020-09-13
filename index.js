@@ -55,6 +55,10 @@ client.on('message', message => {
 		message.channel.send('https://thumbs.gfycat.com/DiscreteDirtyBeagle-size_restricted.gif');
 	}
 
+	if (command === 'fireworks') {
+		message.channel.send('https://media2.giphy.com/media/26tOZ42Mg6pbTUPHW/giphy.gif');
+	}
+
 	if (command === 'poop') {
 		message.channel.send('That is some smelly shit you got there');
 	}
