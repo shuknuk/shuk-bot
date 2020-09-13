@@ -17,7 +17,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' There are two lists, `!list` and `!list2`              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !knuckles !bored !bye !android !youtube !mornin` ');
+		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !knuckles !bored !bye !android !youtube !mornin` ');
 	}
 
 	if (command === 'list2') {
