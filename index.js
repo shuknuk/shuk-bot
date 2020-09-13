@@ -19,6 +19,10 @@ client.on('message', message => {
 	if (command === 'list') {
 		message.channel.send(' There are two lists, `!list` and `!list2`              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !knuckles !bored !bye !android !youtube !mornin` ');
 	}
+
+	if (command === 'list2') {
+		message.channel.send(' `!How are you doing?`              *More commands will be added soon*');
+	}
 	// END OF COMMANDS TO USE WITH BOT
 
 	// ---------------------------------SEPERATION--------------------------------------
@@ -119,7 +123,7 @@ client.on('message', message => {
 		message.channel.send('Bye https://thumbs.gfycat.com/ClumsyFarawayBeardedcollie-size_restricted.gif');
 	}
 
-	if (command === 'DaShukBot how are you doing?') {
+	if (command === 'How are you doing?') {
 		message.channel.send('I am doing good, thanks for asking! How are you doing?');
 	}
 
