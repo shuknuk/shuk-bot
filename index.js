@@ -147,7 +147,8 @@ client.on('message', message => {
 
 
 	// Add the github link when public: https://github.com/Kinshuk-Goel/shuk-bot
-
+// In order to add this as public I have to make sure that the token is not exposed anywhere
+// or seen. So it's gonna be a bit hard to get it to be public. 
 
 
 // I added a new label and i editied it and I did it again! Save the code.
