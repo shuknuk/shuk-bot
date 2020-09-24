@@ -17,7 +17,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dingdong !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !knuckles !bored !bye !android !youtube !mornin` ');
+		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dingdong !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !knuckles !bored !bye !minecraft !android !youtube !mornin` ');
 	}
 
 	if (command === 'list2') {
@@ -41,6 +41,10 @@ client.on('message', message => {
 
 	if (command === 'cats') {
 		message.channel.send('https://tenor.com/view/cat-driving-serious-cat-driving-focus-driving-gif-15519638');
+	}
+
+	if (command === 'minecraft') {
+		message.channel.send('Official Minecraft Download Link => https://www.minecraft.net/en-us/download');
 	}
 
 	if (command === 'reddit') {
@@ -148,7 +152,7 @@ client.on('message', message => {
 
 	// Add the github link when public: https://github.com/Kinshuk-Goel/shuk-bot
 // In order to add this as public I have to make sure that the token is not exposed anywhere
-// or seen. So it's gonna be a bit hard to get it to be public. 
+// or seen. So it's gonna be a bit hard to get it to be public.
 
 
 // I added a new label and i editied it and I did it again! Save the code.
