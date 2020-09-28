@@ -56,7 +56,7 @@ client.on('message', message => {
 	}
 
 	if (command === 'hello') {
-		message.channel.send('Hello there! Type !list to learn what commands to use with me! You can also type !help to view a simplified page of the commands to');
+		message.channel.send('Hello there! Type !list to learn what commands to use with me!');
 	}
 
 	if (command === 'cheers') {
