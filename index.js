@@ -51,6 +51,10 @@ client.on('message', message => {
 		message.channel.send('https://media.tenor.com/images/ac576471c28cc8c1ba698b888457fe37/tenor.gif');
 	}
 
+	if (command === 'why') {
+		message.channel.send('Because I can.')
+	}
+
 	if (command === 'minecraft') {
 		message.channel.send('Official Minecraft Download Link => https://www.minecraft.net/en-us/download');
 	}
