@@ -39,6 +39,10 @@ client.on('message', message => {
 		message.channel.send('https://drive.google.com/file/d/1T8f_AGjIIjg9Acc2F__P-IVegnPBKMDw/view?usp=sharing');
 	}
 
+	if (command === 'why') {
+		message.channel.send('Because I can');
+	}
+
 	if (command === 'cats') {
 		message.channel.send('https://tenor.com/view/cat-driving-serious-cat-driving-focus-driving-gif-15519638');
 	}
