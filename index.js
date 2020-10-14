@@ -40,7 +40,7 @@ client.on('message', message => {
 	}
 
 	if (command === 'why') {
-		message.channel.send('Because I can');
+		message.channel.send('Welp its because I can, /shrug ');
 	}
 
 	if (command === 'cats') {
