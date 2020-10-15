@@ -17,7 +17,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT
 	if (command === 'list') {
-		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dingdong !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
+		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dingdong !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
 	}
 
 	if (command === 'list2') {
@@ -53,6 +53,10 @@ client.on('message', message => {
 
 	if (command === 'dead') {
 		message.channel.send('https://media3.giphy.com/media/QNGtIbsXz88V2/giphy.gif');
+	}
+
+	if (command === 'iguana_corp') {
+		message.channel.send('https://cdn.discordapp.com/attachments/750725430058680340/766072437129216010/Screen_Shot_2020-10-14_at_6.57.43_PM.png');
 	}
 
 	if (command === 'thanks') {
