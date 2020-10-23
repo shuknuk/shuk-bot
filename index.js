@@ -75,6 +75,10 @@ client.on('message', message => {
 		message.channel.send('https://www.reddit.com');
 	}
 
+	if (command === 'code_editor') {
+		message.channel.send('This bot was developed using the IDE **Visual Studio Code.**');
+	}
+
     if (command === 'google') {
         message.channel.send('https://www.google.com');
 	}
