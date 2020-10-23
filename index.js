@@ -15,9 +15,9 @@ client.on('message', message => {
 
 
 
-	// ALL COMMANDS TO USE WITH BOT
+	// ALL COMMANDS TO USE WITH BOT 
 	if (command === 'list') {
-		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !apple_vs_android !dingdong !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
+		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !start_news !start_news_final !end_news !apple_vs_android !dingdong !code_editor !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
 	}
 
 	if (command === 'list2') {
@@ -129,6 +129,14 @@ client.on('message', message => {
 
 	if (command === 'bored') {
 		message.channel.send('Consult these websites for boredom: https://blog.hubspot.com/marketing/surf-internet-websites | https://parade.com/1018413/marynliles/things-to-do-when-bored/ | https://en.softonic.com/articles/10-ways-to-do-more-with-discord ');
+	}
+
+	if (command === 'start_news') {
+		message.channel.send('Contacting cameras... Executing mics... Loading.......');
+	} else if (command === 'start_news_final') {
+		message.channel.send('News channel successfully started! Please switch to `news-reporting-studio` to continue.');
+	} else if (command === 'end_news') {
+		message.channel.send('News studio successfully ended.');
 	}
 
 	if (command === 'boomer_alert') {
