@@ -21,7 +21,7 @@ client.on('message', message => {
 	}
 
 	if (command === 'list2') {
-		message.channel.send(' `!how_are_you_doing`              *More commands will be added soon*');
+		message.channel.send(' `!how_are_you_doing`    `I_am_tired`          *More commands will be added soon*');
 	}
 	// END OF COMMANDS TO USE WITH BOT
 
@@ -37,6 +37,10 @@ client.on('message', message => {
 
 	if (command === 'yo') {
 		message.channel.send('https://drive.google.com/file/d/1T8f_AGjIIjg9Acc2F__P-IVegnPBKMDw/view?usp=sharing');
+	}
+
+	if (command === 'I_am_tired') {
+		message.channel.send('I am tired too, of being online all the time!');
 	}
 
 	if (command === 'why') {
