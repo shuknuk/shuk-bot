@@ -140,7 +140,7 @@ client.on('message', message => {
 	}
 
 	if (command === 'start_news') {
-		message.channel.send('Contacting cameras... Executing mics... Loading.......');
+		message.channel.send('Connecting cameras... Executing mics... Loading.......');
 	} else if (command === 'start_news_final') {
 		message.channel.send('News channel successfully started! Please switch to `news-reporting-studio` to continue.');
 	} else if (command === 'end_news') {
