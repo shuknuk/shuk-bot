@@ -17,7 +17,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT 
 	if (command === 'list') {
-		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !start_news !start_news_final !end_news !apple_vs_android !agree !dingdong !code_editor !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
+		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !start_news !start_news_final !end_news !apple_vs_android !agree !dingdong !code_editor !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !halloween !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
 	}
 
 	if (command === 'list2') {
@@ -133,6 +133,10 @@ client.on('message', message => {
 
 	if (command === 'panic') {
 		message.channel.send('https://images-ext-2.discordapp.net/external/qZw1eKzoZ5YQxVjRpzs61DBuGvbzvO0wBRtvG0VpOp4/https/images-ext-1.discordapp.net/external/DUyLzeMzo93_divTJPzzGVzsdJfcWZ17kfUlrtyx3gY/https/media.tenor.com/images/8de5bce8f5903037ada38cce0157738f/tenor.gif');
+	}
+
+	if (command === 'halloween') {
+		message.channel.send('HAPPY HALLOWEEN BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO`OOOOOOO`OOOOOOOOOOOOOOOO**OOOOOOOOOOOOOOOOOOO**OOOOOOOOOOOOOOO');
 	}
 
 	if (command === 'bored') {
