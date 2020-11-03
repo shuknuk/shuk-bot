@@ -17,7 +17,7 @@ client.on('message', message => {
 
 	// ALL COMMANDS TO USE WITH BOT 
 	if (command === 'list') {
-		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !start_news !start_news_final !end_news !apple_vs_android !agree !dingdong !code_editor !feedback !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !halloween !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
+		message.channel.send(' There are two lists, `!list` and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !start_news !start_news_final !end_news !apple_vs_android !agree !separator !dingdong !code_editor !feedback !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !halloween !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
 	}
 
 	if (command === 'list2') {
@@ -73,6 +73,10 @@ client.on('message', message => {
 
 	if (command === 'why') {
 		message.channel.send('Because I can.')
+	}
+
+	if (command === 'separator') {
+		message.channel.send('------------------------------------------------------------------------------------------------------------------------------');
 	}
 
 	if (command === 'minecraft') {
