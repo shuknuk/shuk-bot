@@ -43,6 +43,10 @@ client.on('message', message => {
 		message.channel.send('https://drive.google.com/file/d/1T8f_AGjIIjg9Acc2F__P-IVegnPBKMDw/view?usp=sharing');
 	}
 
+	if (command === 'homie_hello') {
+		message.channel.send('Yo what is up my homie?');
+	}
+
 	if (command === 'I_am_tired') {
 		message.channel.send('I am tired too, of being online all the time!');
 	}
