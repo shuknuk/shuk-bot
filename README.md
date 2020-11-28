@@ -19,4 +19,4 @@ Bot-Invite Link: [`COMING SOON`]
 
 Website: [Also coming soon!] `Very Basic`
 
-Contact Me: kg467@graphic-designer.com
+Contact Me: e734103@gmail.com
