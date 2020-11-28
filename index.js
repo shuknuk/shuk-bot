@@ -103,6 +103,10 @@ client.on('message', message => {
         message.channel.send('https://www.google.com');
 	}
 
+	if (command === 'github') {
+		message.channel.send('https://github.com/Kinshuk-Goel/shuk-bot');
+	}
+
 	if (command === 'hello') {
 		message.channel.send('Hello there! Type !list to learn what commands to use with me!');
 	}
