@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+expired = this is filter to keep it damaged. 			const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.once('ready', () => {
