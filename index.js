@@ -30,11 +30,11 @@ client.on('message', message => {
 
 	// ---------------------------------SEPERATION--------------------------------------
 
-    if (command === 'tacos') {
+    if (command === '!tacos') {
         message.channel.send('https://tenor.com/view/tacos-taco-guru-hartos-tacos-toma-pobre-thrown-gif-12143253');
 	}
 
-	if (command === 'dingdong') {
+	if (command === '!dingdong') {
 		message.channel.send('Hello im here lol');
 	}
 
