@@ -348,7 +348,7 @@ client.on('message', message => {
 
 
 
-client.login('NzI5MDk3NzEyODE2ODgxNjY1.XwD_KA.FWeRhN5aM3sWtw4B0jEZajVbJc8');
+client.login(token);
 
 
 
