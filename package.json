@@ -9,6 +9,7 @@
   "author": "Kinshuk Goel",
   "license": "ISC",
   "dependencies": {
+    "discord": "^0.8.2",
     "discord.js": "^12.2.0",
     "eslint": "^7.4.0"
   }

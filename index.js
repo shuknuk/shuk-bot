@@ -1,5 +1,6 @@
-expired = this is filter to keep it damaged. 			const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
+const prefix = '!';
 
 client.once('ready', () => {
 	console.log('The bot is online! Type !help to learn what commands to use with it');
