@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '!';
+require('dotenv').config();
 
 client.once('ready', () => {
 	console.log('The bot is online! Type !help to learn what commands to use with it');
@@ -65,6 +66,10 @@ client.on('message', message => {
 
 	if (command === 'school') {
 		message.channel.send('https://media.tenor.com/images/7a2a78b065e7be080232b379e9ff0cc4/tenor.gif');
+	}
+
+	if (command === 'whattfisurname') {
+		message.channel.send('go f urself fr');
 	}
 
 	if (command === 'dead') {
@@ -348,7 +353,7 @@ client.on('message', message => {
 
 
 
-client.login('NzI5MDk3NzEyODE2ODgxNjY1.XwD_KA.FWeRhN5aM3sWtw4B0jEZajVbJc8');
+client.login(process.env.BOT_TOKEN);
 
 
 
