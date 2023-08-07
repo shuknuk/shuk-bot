@@ -368,7 +368,17 @@ client.on('message', message => {
 client.login(process.env.BOT_TOKEN);
 
 
+//...Discord Bot Code Above ^^
 
+const express = require('express')
+const app = express();
+const port = 3000;
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 
 // List of commands now on PasteBin
 // https://pastebin.com/6usNqskj
