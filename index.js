@@ -363,7 +363,7 @@ client.on('message', message => {
   }
 });
 
-
+// save changes pls
 
 client.login(process.env.BOT_TOKEN);
 
@@ -380,5 +380,4 @@ app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
 
-// List of commands now on PasteBin
-// https://pastebin.com/6usNqskj
+
