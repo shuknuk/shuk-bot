@@ -1,7 +1,5 @@
 # shuk-bot
 
-Note: This project has been closed. Unless there is active participation or sudden development that happens, this project does not work. You can view the files and commit any changes if you want. 
-
 
 A very basic Discord bot that was programmed by me and is in development.
 
@@ -10,16 +8,13 @@ A very basic Discord bot that was programmed by me and is in development.
 This bot can do basic stuff such as responding to commands such as *!hello* and send gifs to messages such as *!cats*
 
 
-
-So once I figure out how to hide the bot token then I will make the GitHub project public. If u see it public, then you should assume that the bot token is hidden lolololololol.
-
 Right now the bot is currently in beta, so more features will be added soon.
-
+And yes I've just revived it 3 years after. 
 
 
 Project created: `July 17th, 2020`
 
-Bot-Invite Link: [`COMING SOON`]
+Bot-Invite Link: [https://discord.com/oauth2/authorize?client_id=729097712816881665&scope=bot&permissions=8]
 
 Website: [Also coming soon!] `Very Basic`
 
