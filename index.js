@@ -17,8 +17,20 @@ client.on('message', message => {
 
 
 	// ALL COMMANDS TO USE WITH BOT stage another change
+
 	if (command === 'list') {
-		message.channel.send(' There are two lists, `!list`, `!emojis`, and `!list2` You are currently viweing List 1 (!list)              `!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [dis command deletes msgs so be careful]` `!author` `!server`  `Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no` ||| `!tacos !cats !github !start_news !start_news_final !end_news !apple_vs_android !agree !separator !dingdong !code_editor !feedback !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit !google !halloween !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye !minecraft !android !youtube !school !mornin` ');
+		const commandsList1 = [
+			'There are two lists, `!list`, `!emojis`, and `!list2`. You are currently viewing List 1 (!list)',
+			'`!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [this command deletes messages so be careful]` `!author` `!server`',
+			'Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no',
+			'More commands: !tacos !cats !github !start_news !start_news_final !end_news !apple_vs_android !agree !separator !dingdong',
+			'!code_editor !feedback !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit',
+			'!google !halloween !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye',
+			'!minecraft !android !youtube !school !mornin',
+		]
+
+		const fullMessage = commandsList1.join('\n');
+		message.channel.send(fullMessage);
 	}
 
 	if (command === 'list2') {
@@ -137,7 +149,7 @@ client.on('message', message => {
 	}
 
 	if (command === 'help') {
-		message.channel.send('You can visit this page for the commands to use: https://pastebin.com/6usNqskj');
+		message.channel.send('Type the command `!list` and `!list2` to learn what commands to use with me!');
 	}
 
 	if (command === 'mornin') {
