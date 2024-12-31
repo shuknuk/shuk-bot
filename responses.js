@@ -18,6 +18,7 @@ const responses = {
   android: 'https://lh3.googleusercontent.com/GTmuiIZrppouc6hhdWiocybtRx1Tpbl52eYw4l-nAqHtHd4BpSMEqe-vGv7ZFiaHhG_l4v2m5Fdhapxw9aFLf28ErztHEv5WYIz5fA',
   apple: 'https://pbs.twimg.com/profile_images/1283958620359516160/p7zz5dxZ_400x400.jpg',
   youtube: 'https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif',
+  bomb: 'https://media.giphy.com/media/HhTXt43pk1I1W/giphy.gif',
 
   // Text responses
   dingdong: 'Hello im here lol',

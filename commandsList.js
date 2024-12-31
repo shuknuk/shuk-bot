@@ -16,7 +16,7 @@ const commands = {
     '• `!server` - Server information',
     '',
     '**🎮 Fun Commands**',
-    '• `!tacos` `!cats` `!dogs_terrified` `!fireworks` `!doit`',
+    '• `!tacos` `!cats` `!dogs_terrified` `!fireworks` `!doit` `!bomb`',
     '• `!roll` `!panic` `!why` `!dead` `!knuckles`',
     '',
     '**🔧 Tools & Info**',
