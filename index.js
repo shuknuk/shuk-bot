@@ -3,6 +3,8 @@ const client = new Discord.Client();
 const prefix = '!';
 require('dotenv').config();
 
+const commands = require('./commandsList');
+
 client.once('ready', () => {
   console.log('The bot is online! Type !help to learn what commands to use with it');
 });
@@ -19,26 +21,18 @@ client.on('message', message => {
   // ALL COMMANDS TO USE WITH BOT stage another change
 
   if (command === 'list') {
-    const commandsList1 = [
-      'There are two lists, `!list`, `!emojis`, and `!list2`. You are currently viewing List 1 (!list)',
-      '`!hello` `!help` `!kick @User` `!avatar @user` `!prune (amount) [this command deletes messages so be careful]` `!author` `!server`',
-      'Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no',
-      'More commands: !tacos !cats !github !start_news !start_news_final !end_news !apple_vs_android !agree !separator !dingdong',
-      '!code_editor !feedback !reddit !yo (warning this has very loud annoying audio) !fireworks !dogs_terrified !poop !doit',
-      '!google !halloween !cheers !panic !news !boomer_alert !apple !roll !why !dead !knuckles !iguana_corp !thanks !bored !bye',
-      '!minecraft !android !youtube !school !mornin',
-    ]
-
-    const fullMessage = commandsList1.join('\n');
+    const fullMessage = commands.list1.join('\n');
     message.channel.send(fullMessage);
   }
 
   if (command === 'list2') {
-    message.channel.send(' `!how_are_you_doing`    `I_am_tired`          *More commands will be added soon*');
+    const fullMessage = commands.list2.join('\n');
+    message.channel.send(fullMessage);
   }
 
   if (command === 'emojis') {
-    message.channel.send('Emojis => !happy !like !love !haha !wow !sad !mad !XD !mask !yes !no');
+    const fullMessage = commands.emojis.join('\n');
+    message.channel.send(fullMessage);
   }
   // END OF COMMANDS TO USE WITH BOT
 
@@ -345,21 +339,31 @@ client.on('message', message => {
 
     message.channel.send(avatarList);
   } else if (command === 'prune') {
-    const amount = parseInt(args[0]) + 1;
-    // When typing the !prune command, enter an amount and it deletes that many messages.
-    // Limit is from 2-100 per submission
-    if (isNaN(amount)) {
-      return message.reply('that doesn\'t seem to be a valid number.');
-    } else if (amount < 2 || amount > 100) {
-      return message.reply('you need to input a number between 2 and 100.');
+    // Check if user has permission to manage messages
+    if (!message.member.hasPermission('MANAGE_MESSAGES')) {
+      return message.reply('you need permission to manage messages to use this command.');
     }
 
-    message.channel.bulkDelete(amount);
+    const amount = parseInt(args[0]);
 
-    message.channel.bulkDelete(amount, true).catch(err => {
-      console.error(err);
-      message.channel.send('there was an error trying to prune messages in this channel!');
-    });
+    // Input validation
+    if (isNaN(amount)) {
+      return message.reply('please provide a valid number.');
+    }
+    if (amount < 1 || amount > 99) {
+      return message.reply('you need to input a number between 1 and 99.');
+    }
+
+    // Delete messages
+    message.channel.bulkDelete(amount + 1, true)
+      .then(messages => {
+        message.channel.send(`Successfully deleted ${messages.size - 1} messages.`)
+          .then(msg => msg.delete({ timeout: 3000 })); // Delete confirmation after 3 seconds
+      })
+      .catch(error => {
+        console.error(error);
+        message.channel.send('There was an error trying to delete messages! Messages older than 14 days cannot be bulk deleted.');
+      });
   }
 });
 
