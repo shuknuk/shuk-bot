@@ -56,7 +56,7 @@ client.on('message', message => {
   } else if (command === 'avatar') {
     const user = message.mentions.users.first() || message.author;
     const avatarEmbed = new Discord.MessageEmbed()
-      .setColor('#0099ff')
+      .setColor('#000000')
       .setTitle(`${user.username}'s Avatar`)
       .setImage(user.displayAvatarURL({ dynamic: true, size: 256 }));
     
